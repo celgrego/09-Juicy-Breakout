@@ -52,6 +52,7 @@ polygon = PoolVector2Array( 0, 632, 0, 0, 1024, 0, 1024, 632, 1064, 632, 1064, -
 [node name="Tiles" type="Node2D" parent="."]
 
 [node name="Tile Row 1" type="Node2D" parent="Tiles"]
+editor/display_folded = true
 
 [node name="Tile" parent="Tiles/Tile Row 1" instance=ExtResource( 5 )]
 position = Vector2( 184, 296 )
@@ -85,6 +86,7 @@ position = Vector2( 832, 296 )
 
 [node name="Tile Row 2" type="Node2D" parent="Tiles"]
 editor/display_folded = true
+modulate = Color( 0, 1, 1, 1 )
 
 [node name="Tile" parent="Tiles/Tile Row 2" instance=ExtResource( 5 )]
 position = Vector2( 184, 256 )
@@ -118,6 +120,7 @@ position = Vector2( 832, 256 )
 
 [node name="Tile Row 3" type="Node2D" parent="Tiles"]
 editor/display_folded = true
+modulate = Color( 1, 0, 1, 1 )
 
 [node name="Tile" parent="Tiles/Tile Row 3" instance=ExtResource( 5 )]
 position = Vector2( 184, 216 )
@@ -151,6 +154,7 @@ position = Vector2( 832, 216 )
 
 [node name="Tile Row 4" type="Node2D" parent="Tiles"]
 editor/display_folded = true
+modulate = Color( 1, 1, 0, 1 )
 
 [node name="Tile" parent="Tiles/Tile Row 4" instance=ExtResource( 5 )]
 position = Vector2( 184, 176 )
@@ -184,6 +188,7 @@ position = Vector2( 832, 176 )
 
 [node name="Tile Row 5" type="Node2D" parent="Tiles"]
 editor/display_folded = true
+modulate = Color( 0, 0, 1, 0.635294 )
 
 [node name="Tile" parent="Tiles/Tile Row 5" instance=ExtResource( 5 )]
 position = Vector2( 184, 136 )
